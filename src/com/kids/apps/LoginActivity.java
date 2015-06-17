@@ -60,6 +60,7 @@ public class LoginActivity extends Activity {
 		
 
 		SharedPreferences sharedpref = getSharedPreferences("absentapp", 0);
+		//................................//
 
 		_parent_id = sharedpref.getString("parent_id", "");
 
