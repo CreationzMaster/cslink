@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/show_sendmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/chatbubble"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/showingsend_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ssfsfffgjcsasfcadsfasgsgsgsgsdhgsdh"
+            android:textColor="@color/app_theam_color" />
+
+        <TextView
+            android:id="@+id/showingsend_msg_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_gravity="right"
+            android:text="14-2015"
+            android:textColor="@color/app_theam_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/show_recivemsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/chatbubble"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/showingreceive_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/color_black" />
+
+        <TextView
+            android:id="@+id/showingrecive_msg_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="12sp"
+           
+            android:textColor="@color/color_black" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_theam_color" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             >
+
+   <LinearLayout
+       android:id="@+id/btnbck"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       
+      
+       android:gravity="left"
+       android:orientation="horizontal"
+        >
+        
+           <ImageView
+               android:id="@+id/imgback"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:gravity="left"
+               android:paddingLeft="10dp"
+               android:paddingTop="7dp"
+               android:paddingBottom="7dp"
+               android:src="@drawable/menu_icon" />
+
+         </LinearLayout>
+
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:textColor="@color/color_white"
+       android:textSize="@dimen/textsize"
+       />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

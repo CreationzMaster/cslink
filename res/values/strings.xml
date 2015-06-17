@@ -1,0 +1,117 @@
+<resources>
+
+    <string name="app_name">CSlink</string>
+
+    <!-- login Screen -->
+
+    <string name="login_email_hint">Email id</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="login_newuser_button">NEW USER</string>
+    <string name="login_forgetpassword_string">Forgot Password</string>
+
+    <!-- select child screen -->
+    <string name="select_child_button">CONTINUE</string>
+    
+     <string name="register_child_button">REGISTER</string>
+
+    <!-- Settings -->
+    <string name="language_english">English</string>
+    <string name="language_norwgian">Norwegian</string>
+    <string name="notification">Notification</string>
+    <string name="aboutus">About US</string>
+    <string name="change_pincode">Change Pincode</string>
+
+    <!-- Statistics -->
+    <string name="fromdate">From Date</string>
+    <string name="todate">To Date</string>
+    <string name="absent">Absent</string>
+    <string name="hour">Hour</string>
+    <string name="day">Day</string>
+
+    <!-- contact us -->
+
+    <string name="send">SEND</string>
+    <string name="message_hint">Message</string>
+
+    <!-- REGISTER -->
+    <string name="child_hint">Please Enter child Name</string>
+    <string name="classs">Class</string>
+
+    <!-- Change pincode -->
+    <string name="pincode_header">Change Pincode</string>
+    <string name="current_pincode">Current Pincode</string>
+    <string name="new_pincode">New Pincode</string>
+    <string name="confirm_pincode">Confirm Pincode</string>
+    <!-- forgot password -->
+    <string name="forgot_password_header">Enter Email Id</string>
+    <string name="forgot_password_button">Send</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!-- profile page -->
+
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_hint_parent1">Parent 1</string>
+    <string name="profile_hint_parent2">Parent 2</string>
+    <string name="profile_hint_email1">Email 1</string>
+    <string name="profile_hint_email2">Email 2</string>
+    <string name="profile_hint_class">Class</string>
+    <string name="profile_hint_classincharge">Class Incharge</string>
+    <string name="profile_button_update">Update</string>
+    <string name="update_profile_header">Update Profile</string>
+    <string name="update_profile_schoolid">School Name</string>
+    <string name="update_profile_mobile">Mobile</string>
+
+    <!-- About us -->
+    <string name="aboutus_app">CSlink</string>
+    <string name="aboutus_version">Version:2.12.5</string>
+    <string name="aboutus_copyright">Copyright 2015 Absent App Inc.</string>
+    <string name="aboutus_all">All right reserved.</string>
+
+    <!-- Select Kid -->
+
+    <string name="select_kid">Select Kid</string>
+    <string name="select_kid_done">Done</string>
+    
+    <!-- Absent Screen -->
+
+
+  <string name="select_subject">Select Subject</string>
+  <string name="select_all">Select All</string>
+  <string name="subjects">Subjects</string>
+ 
+ 
+    <!-- navigation drawer item -->
+
+    <string-array name="drawer_item">
+        <item>My Profile</item>
+       
+        <item>New Message</item>
+        <item>Alert Message</item>
+        <item>Register</item>
+        <item>Select Child</item>
+        
+        <item>Settings</item>
+        <item>Absent</item>
+        <item>Statistics</item>
+        <item>Contact Us</item>
+        <item>Logout</item>
+    </string-array>
+    
+    
+    <string-array name="drawer_item_nowge">
+        <item>Min profil</item>
+        
+        <item>Samtaler</item>
+        <item>Varselmeldinger</item>
+        <item>Registrer</item>
+        <item>Velg student</item>
+        
+        <item>Innstillinger</item>
+        <item>Fravær</item>
+        <item>Statistikk</item>
+        <item>Kontakt oss</item>
+        <item>Logg ut</item>
+    </string-array>
+
+</resources>

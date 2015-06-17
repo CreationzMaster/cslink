@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+       
+        android:background="@color/color_white"
+        >
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            
+            >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/aboutus_logo" />
+
+            <TextView
+                android:id="@+id/textView_teachername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/imageView1"
+                android:textColor="@color/app_theam_color"
+                android:text="Ashish Sharma" />
+
+            <TextView
+                android:id="@+id/textView_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView_teachername"
+                android:layout_below="@+id/textView_teachername"
+                android:textColor="@color/app_theam_color"
+                android:text="English" />
+
+        </RelativeLayout>
+        
+        
+        
+        
+    </RelativeLayout>
+    
+
+</LinearLayout>
